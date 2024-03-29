@@ -4,7 +4,7 @@ entity UART_tx_tb is
 generic
 (
 RS232_DATA_BITS : integer := 8;
-SYSTEM_CLOCK_FREQ : integer := 50000000;
+SYSTEM_CLOCK_FREQ : integer := 100000000;
 BAUD_RATE:integer := 115200
 );
 end entity;
